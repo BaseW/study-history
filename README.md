@@ -21,3 +21,11 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
   - (pytestで)同じDBに書き込んでから最新のレコードを読み込むと順番が前後した
   - macでword skipは command + right arrow
   - macのvscodeで定義参照 -> 戻るには ctrl + -
+  - Next.jsのLinkコンポーネントを使うと、clientでページ遷移できる
+- 2021/08/27
+  - Next.jsのImageコンポーネントは最適化を行う(public/images/~.jpg)
+  - Next.jsのHeadコンポーネントでタイトルをつけられる
+  - Next.jsでは`styled-jsx`によって、Reactコンポーネント内でcssを書ける
+  - Layoutコンポーネントにcssを当てるにはCss Modulesを使う(components/layout(.js/.module.css))
+  - Css Modulesは自動で一意なclassNameを生成する
+  - 全体にcssを反映するためにはpages/_app.jsを使う(styles/global.css)
