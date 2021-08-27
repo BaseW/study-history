@@ -39,4 +39,7 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
     - Static Generation
     - Server-side Rendering
   - Static Generationでもデータを取得できる -> `getStaticProps`
-
+  - [gray-matter](https://github.com/jonschlinkert/gray-matter)はmarkdownのmetadataを解析する
+  - `getStaticProps`でpropsを返し、`Home`コンポーネントで受け取る
+  - `getStaticProps`でAPIやDBにもアクセス可能
+  - Server-side Renderingの場合は`getServerSideProps`を使う
