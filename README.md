@@ -9,6 +9,8 @@
 最近勉強したNext.jsを使って作る
 -> markdownでblogを作るtutorialがあったのでそのようにしてみる
 
+選択したキーワードをタグにしたり、そのタグから検索できるようにしたい
+
 This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
 ## メモ
@@ -29,3 +31,12 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
   - Layoutコンポーネントにcssを当てるにはCss Modulesを使う(components/layout(.js/.module.css))
   - Css Modulesは自動で一意なclassNameを生成する
   - 全体にcssを反映するためにはpages/_app.jsを使う(styles/global.css)
+  - app.diagrams.netで図を作成できる https://qiita.com/cloudsnow/items/77e591d63dd7117d3380
+  - Next.jsはデフォルトでpre-renderingを行う
+  - pre-renderingはSEOに効果的
+  - 生のreact.jsはpre-renderingしていない
+  - Next.jsのpre-renderingには2種類ある
+    - Static Generation
+    - Server-side Rendering
+  - Static Generationでもデータを取得できる -> `getStaticProps`
+
