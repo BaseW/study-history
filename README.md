@@ -43,3 +43,14 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
   - `getStaticProps`でpropsを返し、`Home`コンポーネントで受け取る
   - `getStaticProps`でAPIやDBにもアクセス可能
   - Server-side Renderingの場合は`getServerSideProps`を使う
+- 2021/08/30
+  - -> と return でシーケンス図が描ける
+  - fastapiのrouterの関数のコメントはdocsにも表示される
+  - markdown(git)の中で相対パスによるリンクを書ける
+- 2021/08/31
+  - Next.jsの動的ルーティングは`pages/[id].js`のようなファイルで行う
+  - `[id].js`は""で囲うことで作成できる(\でも可能だった)
+  - remarkでmarkdownをhtmlとして解析できる
+  - date-fnsで時刻をフォーマット
+  - getStaticPropsで`fallback: false`とすると、取得失敗時に404を返す
+  - ネストしたルートも取得できる
