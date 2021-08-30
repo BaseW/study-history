@@ -54,3 +54,5 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
   - date-fnsで時刻をフォーマット
   - getStaticPropsで`fallback: false`とすると、取得失敗時に404を返す
   - ネストしたルートも取得できる
+  - `pages/api`内でhandlerを定義するとAPI Routeを定義できる
+  - `getStaticProps`と`getStaticPaths`はサーバーサイドでのみ実行される
