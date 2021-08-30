@@ -56,3 +56,6 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
   - ネストしたルートも取得できる
   - `pages/api`内でhandlerを定義するとAPI Routeを定義できる
   - `getStaticProps`と`getStaticPaths`はサーバーサイドでのみ実行される
+  - Vercelを使ってNext.jsアプリをデプロイできる
+  - プルリクを作成すると、previewできる
+  - DPS(Develop, Previwe, Ship)のワークフロー
